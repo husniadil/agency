@@ -5,7 +5,7 @@ services:
       context: ./problem_solving_agency
       dockerfile: Dockerfile
     env_file:
-      - ./problem_solving_agency/stack.env
+      - ./stack.env
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     volumes:

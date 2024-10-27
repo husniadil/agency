@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "./venv/bin/python3",
+    "editor.formatOnSave": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.envFile": "${workspaceFolder}/.env",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll.pylance": "always"
+    },
+}

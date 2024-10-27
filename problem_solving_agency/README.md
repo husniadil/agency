@@ -54,9 +54,9 @@ The Problem Solving Agency is an advanced AI system that breaks down complex pro
 
 From the root of the project, run:
 
-    ```bash
-    docker compose up
-    ```
+```bash
+docker compose up
+```
 
 ### Check Your Assistant
 

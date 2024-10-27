@@ -65,17 +65,25 @@ For more details, see the [Problem Solving Agency README](problem_solving_agency
 
 ### Docker Installation (Recommended)
 
-1. **Build and Run with Docker Compose**:
+1. **Create a `stack.env` file**:
+
+    Create a `stack.env` file in the root of the project and add your OpenAI API key:
+
+    ```
+    OPENAI_API_KEY=your_openai_api_key_here
+    ```
+
+2. **Build and Run with Docker Compose**:
 
     From the root of the project, run:
 
     ```bash
-    docker-compose up --build
+    docker compose up
     ```
 
     This will build and start all agencies defined in the `docker-compose.yml` file.
 
-2. **Access the Agency**:
+3. **Access the Agency**:
 
     The Problem Solving Agency will be available at `http://localhost:10007` (or the port specified in the `docker-compose.yml`).
 

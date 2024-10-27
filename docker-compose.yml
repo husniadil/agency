@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile
     env_file:
       - ./stack.env
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
     volumes:
       - app:/app
     ports:

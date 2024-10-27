@@ -27,13 +27,7 @@ class TaskBreakdown(BaseTool):
 
         Please break this problem down into a list of smaller, manageable tasks.
         Each task should be clear, specific, and actionable.
-        Format the output as a JSON array of task objects, where each object has the following structure:
-        {{
-            "task_id": "...",
-            "description": "...",
-            "dependencies": ["..."]
-        }}
-        Ensure that the tasks are logically ordered and dependencies are correctly specified.
+        Format the output as a JSON array of strings.
         """
 
         response = client.beta.chat.completions.parse(

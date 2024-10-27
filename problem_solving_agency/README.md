@@ -52,11 +52,23 @@ The Problem Solving Agency is an advanced AI system that breaks down complex pro
 
 ### Docker Installation (Recommended)
 
-From the root of the project, run:
+1. **Create a `stack.env` file**:
 
-```bash
-docker compose up
-```
+    Create a `stack.env` file in the root of the project and add your OpenAI API key:
+
+    ```
+    OPENAI_API_KEY=your_openai_api_key_here
+    ```
+
+2. **Build and Run with Docker Compose**:
+
+    ```bash
+    docker compose up
+    ```
+
+3. **Access the Agency**:
+
+    The Problem Solving Agency will be available at `http://localhost:10007` (or the port specified in the `docker-compose.yml`).
 
 ### Check Your Assistant
 

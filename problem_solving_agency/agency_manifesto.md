@@ -20,7 +20,7 @@ The Problem Solving Agency operates in a dynamic, knowledge-rich environment whe
 
 # Key Components
 
-1. Task Breakdown Tool: Utilizes GPT-4 to analyze complex problems and break them down into structured, manageable tasks with clear dependencies.
+1. Task Breakdown Tool: Utilizes GPT-4o-mini to analyze complex problems and break them down into structured, manageable tasks with clear dependencies.
 2. Agent Profile Generator: Creates specialized AI agent profiles tailored to the requirements of each specific task.
 3. Agent Executor: Executes tasks using the generated agent profiles, ensuring that each task is handled by an AI agent with the most suitable expertise and approach.
 4. Problem Solver Agent: Coordinates the entire problem-solving process, from initial analysis to final solution synthesis.

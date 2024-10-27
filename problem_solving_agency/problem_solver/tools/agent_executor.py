@@ -15,7 +15,7 @@ load_dotenv()
 
 class AgentExecutor(BaseTool):
     """
-    A tool for executing tasks using a specialized agent profile with GPT-4.
+    A tool for executing tasks using a specialized agent profile with GPT-4o-mini.
     """
     agent_profile: AgentProfile = Field(..., description="The agent profile for the task.")
     task: str = Field(..., description="The task for the agent to execute.")

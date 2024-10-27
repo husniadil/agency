@@ -1,5 +1,7 @@
 # Agency
 
+![Agency](./header.jpg)
+
 Welcome to the Agency repository! This project showcases the power and flexibility of the [Agency Swarm](https://github.com/VRSEN/agency-swarm) framework by implementing custom AI agent teams for various problem-solving scenarios.
 
 ## Project Overview

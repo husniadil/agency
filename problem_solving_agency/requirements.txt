@@ -1,4 +1,5 @@
 agency-swarm
+gradio
 openai
 pydantic
 python-dotenv

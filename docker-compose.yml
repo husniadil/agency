@@ -1,0 +1,15 @@
+services:
+  problem_solving_agency:
+    container_name: problem_solving_agency
+    build:
+      context: ./problem_solving_agency
+      dockerfile: Dockerfile
+    env_file:
+      - ./problem_solving_agency/stack.env
+    volumes:
+      - app:/app
+    ports:
+      - 10007:7860
+
+volumes:
+  app:
